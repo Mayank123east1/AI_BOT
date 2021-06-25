@@ -1,0 +1,46 @@
+{
+  "id": "9a0f3f35-99f1-49ee-b039-65f4e2c86f06",
+  "parentId": "060cb0a5-358a-484d-8270-7869b0e73d78",
+  "rootParentId": "060cb0a5-358a-484d-8270-7869b0e73d78",
+  "name": "choice.flu - no",
+  "auto": true,
+  "contexts": [
+    "await_choice",
+    "choiceflu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "choiceflu.choiceflu-no",
+      "affectedContexts": [
+        {
+          "name": "choiceflu-no-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "So, you are pretty normal. And leave NOW."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

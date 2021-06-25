@@ -1,0 +1,69 @@
+[
+  {
+    "id": "bce6d3c9-f9ff-472c-b45b-c5bef4856f87",
+    "data": [
+      {
+        "text": "cold/flu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed06b4e5-005a-48c0-a889-461628de76dc",
+    "data": [
+      {
+        "text": "flu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79044b2d-05b6-4b31-be05-d70835bbef15",
+    "data": [
+      {
+        "text": "cold",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bef85054-81b4-408a-8a61-21f12d304620",
+    "data": [
+      {
+        "text": "1",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8880583-1bf5-4214-a8a2-c442371ebfed",
+    "data": [
+      {
+        "text": "1)cold/flu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

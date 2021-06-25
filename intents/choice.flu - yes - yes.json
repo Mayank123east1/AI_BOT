@@ -1,0 +1,49 @@
+{
+  "id": "491136ba-b832-4134-ba18-c13557a7a713",
+  "parentId": "e1120c59-62ca-4745-aae9-08b8b2880c49",
+  "rootParentId": "060cb0a5-358a-484d-8270-7869b0e73d78",
+  "name": "choice.flu - yes - yes",
+  "auto": true,
+  "contexts": [
+    "choiceflu-yes-followup",
+    "await_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "choiceflu.choiceflu-yes.choiceflu-yes-yes",
+      "affectedContexts": [
+        {
+          "name": "choiceflu-yes-yes-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "await_choice",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consult a doctors and you better don\u0027t go near anyone"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

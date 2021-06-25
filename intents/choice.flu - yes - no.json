@@ -1,0 +1,45 @@
+{
+  "id": "3a1a8e97-7ad6-446e-a708-afbf1d29f6cd",
+  "parentId": "e1120c59-62ca-4745-aae9-08b8b2880c49",
+  "rootParentId": "060cb0a5-358a-484d-8270-7869b0e73d78",
+  "name": "choice.flu - yes - no",
+  "auto": true,
+  "contexts": [
+    "choiceflu-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "choiceflu.choiceflu-yes.choiceflu-yes-no",
+      "affectedContexts": [
+        {
+          "name": "choiceflu-yes-no-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "So, you are pretty normal actually. You can leave NOW."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}
